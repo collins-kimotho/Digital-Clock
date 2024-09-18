@@ -1,8 +1,39 @@
-# React + Vite
+# Digital Clock - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple digital clock built with React that displays the current time in a 12-hour format with AM/PM. The clock automatically updates every second to reflect the current system time.
 
-Currently, two official plugins are available:
+## Features
+* Displays the current time in HH:MM:SS AM/PM format.
+* Updates every second using setInterval.
+* Responsive and lightweight.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+### Prerequisites
+Ensure you have Node.js and npm installed on your machine.
+
+## Steps
+1. Clone this repository: 
+```https://github.com/collins-kimotho/Digital-Clock.git```
+
+2. navigate to the project directory:
+```cd Digital-Clock```
+
+3. Intall dependencies:
+```npm install```
+
+4. Start the development server:
+```npm start```
+
+The ap will be accessible at ```http://localhost:3000```.
+
+## How it works
+The clock uses JavaScript's Date object to get the current time and displays it in the format of HH:MM:SS AM/PM. A React useState hook manages the time, and useEffect is used to update the time every second.
+
+![alt text](image.png)
+
+## Contact
+For questions or collaboration, contact me at: <br>
+Email: [collinskimotho16@gmail.com](collinskimotho16@gmail.com) <br>
+Github: [collins-kimotho](https://github.com/collins-kimotho)
+
