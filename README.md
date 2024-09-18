@@ -13,16 +13,16 @@ This is a simple digital clock built with React that displays the current time i
 Ensure you have Node.js and npm installed on your machine.
 
 ## Steps
-1. Clone this repository: 
+1. Clone this repository: <br>
 ```https://github.com/collins-kimotho/Digital-Clock.git```
 
-2. navigate to the project directory:
+2. navigate to the project directory: <br>
 ```cd Digital-Clock```
 
-3. Intall dependencies:
+3. Intall dependencies: <br>
 ```npm install```
 
-4. Start the development server:
+4. Start the development server: <br>
 ```npm start```
 
 The ap will be accessible at ```http://localhost:3000```.
